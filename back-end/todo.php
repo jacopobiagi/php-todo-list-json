@@ -6,13 +6,18 @@
 
     $todo = [
         [
-            'primacosa' => 'pulire camera',
-            'secondacosa' => 'pulire bagno'
+            'tips' => 'pulire camera'
         ],
         [
-            'primacosa' => 'cucinare',
-            'seconda cosa' => 'fare lavastoviglie'
+            'tips' => 'Spazzare sala'
+        ],
+        [
+            'tips' => 'pulire bagno'
+        ],
+        [
+            'tips' => 'pulire macchina'
         ]
+
     ];
 
     $jsonTodo = json_encode($todo);
